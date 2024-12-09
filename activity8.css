@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    
+}
+
+/* Container box with outer solid line */
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+
+}
+
+/* Inner dotted line */
+.inner-box {
+    border: 2px dotted black;
+    padding: 10px;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    border:2px solid;
+}
+
+/* Table styling */
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 4px double black; /* Boxed lines around each cell */
+    padding: 10px;
+}
+.table{
+    border: 2px dotted;
+    padding: 10px;
+}
